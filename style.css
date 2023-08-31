@@ -1,0 +1,81 @@
+body {
+    background-image: url(./img/paisaje-digital-en-atardecer-5846.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Sedgwick Ave Display', cursive;
+
+}
+
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    background-color: none ;
+    position: relative;
+    margin-top: 250px;
+
+}
+
+.title {
+    text-align: center;
+    position: absolute;
+    margin-top: 50px;
+    left: 850px;
+    border: outset 5px #930DAB  ;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.name {
+    position: absolute;
+    background: none;
+    text-align: center ;
+    border-radius: 2em;
+    border: inset 3px #930DAB  ;
+    top: 150px;
+    left: 880px;    
+}
+
+.apellido {
+    position: absolute;
+    background: none;
+    text-align: center ;
+    border-radius: 2em;
+    border: inset 3px #930DAB  ;
+    top: 200px;
+    left: 880px;
+}
+
+.gmail {
+    position: absolute;
+    background: none;
+    text-align: center ;
+    border-radius: 2em;
+    border: inset 3px #930DAB  ;
+    top: 250px;
+    left: 880px;
+}
+
+.contraseña {
+    position: absolute;
+    background: none;
+    text-align: center ;
+    border-radius: 2em;
+    border: inset 3px #930DAB  ;
+    top: 300px;
+    left: 880px;
+}
+
+.boton {
+    position: absolute;
+    background: none;
+    text-align: center ;
+    border-radius: 2em;
+    border: inset 3px #930DAB  ;
+    top: 350px  ;
+    left: 950px;
+}
